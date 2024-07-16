@@ -1,0 +1,206 @@
+:root {
+--font-family:"Roboto", sans-serif;
+--main-text-color: #00194A;
+--main-btn-txt-color:#fff;
+}
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  outline: 2px dashed palevioletred;
+  margin: 0 auto;
+}
+/* header part */
+.header {
+  margin-bottom: 49px;
+}
+.header-list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff0043;
+}
+.header-btn {
+  padding: 15px 21px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 23px;
+  box-shadow: 0 5px 50px 0 rgba(255, 0, 67, 0.1);
+  background: #ff0043;
+}
+/* hero section part */
+.hero-section {
+  padding-top: 113px;
+  padding-bottom: 107px;
+  background-image: url(../images/background-img-hero-section.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 70%;
+}
+h1 {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 142%;
+  color: #00194a;
+}
+.hero-paragraph {
+  margin-bottom: 50px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 156%;
+  color: #00194a;
+  opacity: 0.8;
+}
+.hero-btn {
+  padding: 20px 66px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0 5px 50px 0 rgba(255, 0, 67, 0.1);
+  background: #ff0043;
+  border: none;
+  border-radius: 30px;
+}
+/* second section part */
+.second-section {
+  margin-bottom: 80px;
+}
+.second-section-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.second-section-list-item-first,
+.second-section-list-item-second,
+.second-section-list-item-third{
+  padding: 36px 30px 30px 30px;
+  width: 360px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.03);
+  background: #fff;
+}
+.second-section-list-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h3-scnd-section {
+  margin-bottom: 15px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  color: #00194a;
+}
+/* before elements for second section */
+.second-section-list-item-first::before {
+  content: "";
+  margin-bottom: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/android.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.second-section-list-item-second::before {
+  content: "";
+  margin-bottom: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/apple.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.second-section-list-item-third::before {
+  content: "";
+  margin-bottom: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/windows.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+/* before elements have ended */
+.scnd-section-paragraph {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 162%;
+  color: #00194a;
+  opacity: 0.8;
+}
+.scnd-list-link-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #00194a;
+  opacity: 0.5;
+}
+/* aboout section part */
+.about-section {
+  padding-top: 162px;
+  padding-bottom: 147px;
+}
+.about-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* position */
+.first-img-block-list {
+  position: absolute;
+}
+.img-list-item-first,
+.img-list-item-second,
+.img-list-item-third {
+  position: relative;
+}
+.img-list-item-first {
+  z-index: 1;
+  top: 85px;
+  right: 148px;
+}
+.img-list-item-second {
+  z-index: 2;
+}
+.img-list-item-third {
+  z-index: 3;
+  left: 126px;
+  bottom: 200px;
+}
+/*  */
+.about-section-title {
+  margin-bottom: 30px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  color: #00194a;
+}
+.about-section-paragraph{
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 156%;
+  color: #00194a;
+  opacity: 0.8;
+}
