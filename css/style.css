@@ -20,6 +20,7 @@
   align-items: center;
 }
 .header-logo {
+  text-decoration: none;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 20px;
