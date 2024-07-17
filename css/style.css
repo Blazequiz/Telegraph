@@ -6,7 +6,7 @@
 .container {
   width: 1140px;
   padding: 0 15px;
-  outline: 2px dashed palevioletred;
+  /* outline: 2px dashed palevioletred; */
   margin: 0 auto;
 }
 /* header part */
